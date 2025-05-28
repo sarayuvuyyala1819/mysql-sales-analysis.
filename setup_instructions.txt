@@ -1,0 +1,13 @@
+# IMPORT EXCEL/CSV FILE INTO MYSQL
+
+1. Convert Excel file to CSV format.
+2. Open MySQL Workbench.
+3. Create a new database:
+   CREATE DATABASE company;
+4. Use the database:
+   USE company;
+5. On Schema Tab:
+   - Right-click "Tables" → "Table Data Import Wizard".
+   - Browse to select Sales.csv.
+   - Click Next until Finish.
+6. Refresh the database to see the table.
